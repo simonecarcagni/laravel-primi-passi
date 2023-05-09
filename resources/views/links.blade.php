@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Laravel</title>
+    <title>Links</title>
 </head>
 <body>
     <header>
@@ -21,7 +21,7 @@
     </header>
     <main>
         <h1>
-            {{$saluto}}
+            Queste è la seconda pagina con i link!
         </h1>
     </main>
 </body>

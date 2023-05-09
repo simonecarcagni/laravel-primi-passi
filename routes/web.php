@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('home', function () {
 
         $welcome = "Hello World";
 
@@ -22,4 +22,11 @@ Route::get('/', function () {
         ];
 
     return view('home', $dati);
-});
+})->name('home');
+
+
+Route::get('links', function () {
+
+    
+    return view('links');
+})->name('links');
